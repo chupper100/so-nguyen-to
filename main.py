@@ -1,1 +1,1 @@
-print(1)
+print('Hello', input('What is your name?'))
