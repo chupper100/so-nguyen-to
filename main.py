@@ -6,8 +6,8 @@ if n < 2:
 else:
   for i in range(n):
     if n%(i+1)==0:
-      a=a+1
-  if a == 2:
+      so_chia_het=so_chia_het+1
+  if so_chia_het == 2:
     print(n,'là một số nguyên tố.')
   else:
     print(n,'không phải là một số nguyên tố.')
